@@ -1,4 +1,4 @@
-# Experiment--03-Half-Subtractor-and-Full-subtractor
+# Experiment--04-Half-Subtractor-and-Full-subtractor
 ## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
 ## AIM:
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
@@ -33,19 +33,47 @@ Write the detailed procedure here
 
 
 ## Program:
-/*
-Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+HALF SUBTRACTOR
+````
+module halfsub(a,b,differ,borrow);
+input a,b;
+output differ,borrow;
+xor(differ,a,b);
+assign borrow = ~a & b;
+endmodule
+````
+FULL SUBTRACTOR
+````
+module fullsub(a,b,c,borrow,differ);
+input a,b,c;
+output borrow,differ;
+xor(differ,a,b,c);
+assign borrow = (~a)&c | (~a)&b | (b&c);
+endmodule
+````
+
 
 ## Output:
 
 ## Truthtable
+HALF SUBTRACTOR
+![WhatsApp Image 2024-01-01 at 21 08 14_e913df54](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/122075db-63db-44d6-9824-18fd12dabd3e)
+
+FULL SUBTRACTOR
+![WhatsApp Image 2024-01-01 at 21 08 14_94d7ad01](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/a25425cf-31a8-4192-a4c7-6507833c62a5)
 
 
 
 ##  RTL realization
+HALF SUBTRACTOR
+![image](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/84b5e3bd-ed7f-4b6a-859f-2fae3a265391)
+FULL SUBTRACTOR
+![image](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/1155f890-9dbd-4eca-a55a-206e4448ff4f)
+## WAVE form
+HALF SUBTRACTOR
+![Screenshot 2024-01-01 211044](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/054b57eb-d0b9-41cf-94d7-f1368ab980f4)
+FULL SUBTRACTOR
+![Screenshot 2024-01-01 211224](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/867ef9a6-2343-43ea-ac02-824a41fa599a)
 
 
 ## Timing diagram 
