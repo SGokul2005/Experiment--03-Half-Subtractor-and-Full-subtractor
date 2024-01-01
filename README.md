@@ -71,9 +71,11 @@ FULL SUBTRACTOR
 ![image](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/1155f890-9dbd-4eca-a55a-206e4448ff4f)
 ## WAVE form
 HALF SUBTRACTOR
-![Screenshot 2024-01-01 211044](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/054b57eb-d0b9-41cf-94d7-f1368ab980f4)
+![Screenshot 2023-12-31 132028](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/2a9708d1-b3b4-49b4-ab9e-aec4f07a789a)
+
 FULL SUBTRACTOR
-![Screenshot 2024-01-01 211224](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/867ef9a6-2343-43ea-ac02-824a41fa599a)
+![Screenshot 2023-12-31 132509](https://github.com/SGokul2005/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/147121825/fe71fb53-e93b-4ad2-998b-2a337b091d12)
+
 
 
 ## Timing diagram 
